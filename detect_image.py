@@ -19,7 +19,7 @@ def get_class_name(index_value):
         print(f"An error occurred: {str(e)}")
 
 # Load a pretrained YOLOv8n model
-model = YOLO('ultralytics/yolov8n.pt')
+model = YOLO('model/yolov8n.pt')
 
 # Reading Imag
 image = Image.open('test/car.jpeg')

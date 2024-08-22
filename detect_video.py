@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load the YOLOv8 model
-model = YOLO('ultralytics/yolov8n.pt')
+model = YOLO('model/yolov8n.pt')
 
 # Open the video file
 video_path = "test/06021201.AVI"
