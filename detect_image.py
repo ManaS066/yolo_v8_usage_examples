@@ -26,7 +26,7 @@ image = Image.open('test/car.jpeg')
 draw = ImageDraw.Draw(image)
 font = ImageFont.load_default()
 
-results = model('car.jpeg')  # results list, use save_txt = True to save results
+results = model('test/car.jpeg')  # results list, use save_txt = True to save results
 predicted_classes = results[0].boxes.cls
 objects_coordinates = results[0].boxes.xyxy
 count = len(predicted_classes)
